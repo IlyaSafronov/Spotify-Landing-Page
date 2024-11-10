@@ -67,6 +67,12 @@ body {
 .main-footer {
   height: 70px;
   background-color: #202027;
+  font-weight: bold;
+}
+
+.social-link img {
+  width: 1em;
+  margin-right: .25rem;
 }
 
 .main-footer .container {
@@ -78,6 +84,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 40px;
+  flex-grow: 1;
 }
 
 .title {
